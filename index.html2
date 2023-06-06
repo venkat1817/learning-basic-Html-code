@@ -1,13 +1,12 @@
+#This file is a one web application and background color edit.
+
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+
+    <head>
         <meta charset="UTF-8" />
-        <meta name="author" content="Dave Gray">
-        <meta name="description" content="This page contains all the  things  i am lerning.">
         <title> my first html program</title>
-        <link rel="icon" href="html5.png"
-        type="image/x-icon"/>
         <style>
             html {
                 font-size: 22px;
