@@ -1,0 +1,71 @@
+
+
+
+# create two tables dividing two tables.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Side-by-Side Tables</title>
+    <style>
+        .table-container {
+            display: flex;
+        }
+
+        .table-container table {
+            border-collapse: collapse;
+            margin-right: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+            </tr>
+            <tr>
+                <td>Data 3</td>
+                <td>Data 4</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td>babu</td>
+                            <td>venkat</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>babu</td>
+                            <td>venkat</td>
+                        </tr>
+                        </table>
+                </td>
+            </tr>
+          
+        </table>
+    </div>
+</body>
+</html>

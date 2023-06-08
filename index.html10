@@ -1,0 +1,43 @@
+# Inside two tale creation using html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Table Example</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>EDUCATION</th>
+            <th>college</th>
+        </tr>
+        <tr>
+            <td>venkattd>
+            <td>degree</td>
+            <td>Svu</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Dev student</th>
+            <th>python student</th>
+        </tr>
+        <tr>
+            <td>shiva</td>
+            <td>pavan,venky</td>
+            
+        </tr>
+    </table>
+</body>
+</html>

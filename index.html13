@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Nested Table Example</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <table>       
+        <tr>
+            <th>table 1</th>
+            <th>Table 2</th>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <th>inner table 1</th>
+                        <th>Inner table 2</th>
+                    </tr>
+                    <tr>
+                        <td>inner Table Data 1</td>
+                        <td>inner Table Data 2</td>
+                    </tr>
+                </table>
+            </td>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th>table Name</th>
+                            <th>table Name</th>
+                        </tr>
+                        <tr>
+                            <td>inner Table Data 1</td>
+                            <td>Inner Table Data 2</td>
+                        </tr>
+                    </table>
+
+                </td>
+
+            </tr>
+            
+            
+        </tr>
+    </table>
+</body>
+</html>

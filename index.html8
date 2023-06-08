@@ -1,0 +1,22 @@
+<table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Roll NO</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>venkat</td>
+        <td>23</td>
+        <td>12345678</td>
+      </tr>
+      <tr>
+        <td>pavan</td>
+        <td>23</td>
+        <td>7654321</td>
+      </tr>
+    </tbody>
+  </table>
+  
